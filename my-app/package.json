@@ -1,0 +1,14 @@
+{
+  "name": "my-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "metro build index.js --out out.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "metro": "^0.80.6"
+  },
+  "dependencies": {
+    "my-lib": "../my-lib"
+  }
+}
